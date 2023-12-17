@@ -40,6 +40,6 @@ if prompt:
         callback = StreamlitCallbackHandler(st.container())
         agent_chain = create_agent_chain()
         response = agent_chain.run(prompt, callbacks=[callback])
-        st.markdown(response.content)
+        st.markdown(response)
     
     st.session_state.messages.append({"role": "assistant", "content": response})
