@@ -1,0 +1,7 @@
+openai~=1.3.8
+langchain~=0.0.348
+pydantic~=2.5.2
+GitPython
+tiktoken
+chromadb
+langchain-experimental
