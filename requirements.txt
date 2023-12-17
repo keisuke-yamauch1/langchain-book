@@ -5,3 +5,4 @@ GitPython
 tiktoken
 chromadb
 langchain-experimental
+duckduckgo-search
